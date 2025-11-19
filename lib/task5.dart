@@ -55,9 +55,9 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void _editMessage(
-    BuildContext context,
-    QueryDocumentSnapshot<Map<String, dynamic>> doc,
-  ) {
+      BuildContext context,
+      QueryDocumentSnapshot<Map<String, dynamic>> doc,
+      ) {
     final TextEditingController controller = TextEditingController(
       text: doc['text'],
     );
